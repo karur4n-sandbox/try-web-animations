@@ -6,8 +6,6 @@ imageEl.onload = function() {
   moveYotsuba();
 };
 
-var rotateDuration = 2000;
-
 function moveYotsuba() {
   image.setPosition();
   image.setRotate();
@@ -46,9 +44,8 @@ function moveYotsuba() {
   };
 }
 
+var rotateDuration = 2000;
 var rotateDegPerAnimation = 360 / (rotateDuration / 600);
-
-console.log(rotateDegPerAnimation);
 
 var image = {
   prevX: 0,
