@@ -1,8 +1,6 @@
 var imageEl = document.getElementById("image");
 
 imageEl.onload = function() {
-  image.setPosition();
-
   moveYotsuba();
 };
 
